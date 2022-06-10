@@ -57,7 +57,7 @@ Cell Cell::operator--(int) {
 }
 
 void Cell::die() {
- //   this->~Cell();
+    this->~Cell();
 }
 
 bool Cell::isViable() {
